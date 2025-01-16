@@ -1,0 +1,58 @@
+{
+type:tank
+name:M135 Assault Tank
+description: M135 Tank is a nice tank for assaults as it's quite fast and reliable, but it requires plenty time to build
+
+hitSize:10
+omniMovement: true
+speed:2
+
+health:750
+armor:3.5
+
+ treadPullOffset: 3
+
+  treadRects: [
+    {
+      x: -35
+      y: 7
+      width: 1
+      height: 2
+    }
+  ]
+
+  envEnabled: 14
+  envDisabled: 2
+
+ weapons: [
+    {
+      name: Basic-M1-Turret
+      x: 0
+      y: 2.7
+      rotateSpeed: 7
+      mirror: false
+      rotate: true
+      layerOffset: 3
+      ignoreRotation: false
+      followRotation: true
+      rotateShooting: false
+      shootEffect: shootSmall
+      reload: 13
+      recoil: 1
+      recoilTime: 30
+      shootSound: pew
+      ejectEffect: casing1
+
+      bullet: {
+        type: BasicBulletType
+        damage: 30
+        speed: 7
+        lifetime: 23
+        width:2
+        height2
+      }
+
+    }
+  ]
+
+}

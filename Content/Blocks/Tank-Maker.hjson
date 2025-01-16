@@ -1,0 +1,27 @@
+type: UnitFactory
+
+name: Tank Maker
+description: Produces Units!
+itemCapacity: 300
+health: 1500
+size: 3
+
+consumes: {
+  power: 2.2
+}
+
+plans: [
+  {
+    unit: M135
+    time: 2200
+    requirements: []
+  }
+]
+
+requirements: []
+
+category: units
+research: {
+  parent: ground-factory
+  requirements: []
+}
