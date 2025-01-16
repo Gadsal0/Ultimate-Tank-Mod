@@ -1,0 +1,11 @@
+{
+    "name": "utm",
+    "displayName": "Ultimate Tank Mod",
+    "author": "Gadsal0",
+    "description": "Mod add tanks, aircraft, artillery, diesel generators",
+    "version": "1",
+    "minGameVersion": "142",
+    "dependencies": [],
+	"repo":"Gadsal0/Ultimate-Tank-Mod"
+    "hidden": false
+}
