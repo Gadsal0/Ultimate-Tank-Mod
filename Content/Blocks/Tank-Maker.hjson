@@ -2,7 +2,7 @@ type: UnitFactory
 
 name: Tank Maker
 description: Produces Units!
-itemCapacity: 1000
+itemCapacity: 250
 health: 1500
 size: 5
 
@@ -28,6 +28,16 @@ plans: [
     silicon/250
     copper/250
     lead/250
+    coal/10
+    ]
+  }
+     {
+    unit: M7K
+    time: 4400
+    requirements: [
+    silicon/250
+    copper/150
+    lead/500
     coal/10
     ]
   }
