@@ -30,7 +30,7 @@ armor:3.5
     {
       name: Basic-M1-Turret
       x: 0
-      y: -1.75
+      y: 0
       rotateSpeed: 7
       mirror: false
       rotate: true
