@@ -15,9 +15,9 @@ plans: [
     unit: M135
     time: 2200
     requirements: [
-    silicon/50
-    copper/50
-    lead/100
+    silicon/25
+    copper/25
+    lead/50
     coal/5
     ]
   }
