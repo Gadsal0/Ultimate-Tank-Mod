@@ -55,7 +55,12 @@ armor:3.5
 
 research: {
   parent: Tank-Maker
-  requirements: []
+  requirements: [
+    silicon/500
+    copper/500
+    lead/1000
+    coal/50
+  ]
 }
 
 }

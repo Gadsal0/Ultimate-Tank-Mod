@@ -103,7 +103,12 @@ armor:4
 
 research: {
   parent: M135
-  requirements: []
+  requirements: [
+    silicon/2500
+    copper/2500
+    lead/2500
+    coal/100
+  ]
 }
 
 }

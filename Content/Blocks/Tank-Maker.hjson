@@ -2,9 +2,9 @@ type: UnitFactory
 
 name: Tank Maker
 description: Produces Units!
-itemCapacity: 300
+itemCapacity: 1000
 health: 1500
-size: 2
+size: 5
 
 consumes: {
   power: 2.2
@@ -14,14 +14,37 @@ plans: [
   {
     unit: M135
     time: 2200
-    requirements: []
+    requirements: [
+    silicon/50
+    copper/50
+    lead/100
+    coal/5
+    ]
+  }
+    {
+    unit: M13K
+    time: 4400
+    requirements: [
+    silicon/250
+    copper/250
+    lead/250
+    coal/10
+    ]
   }
 ]
 
-requirements: []
+requirements: [
+    silicon/750
+    copper/750
+    lead/750
+]
 
 category: units
 research: {
   parent: ground-factory
-  requirements: []
+  requirements: [
+    silicon/2500
+    copper/2500
+    lead/2500
+  ]
 }
