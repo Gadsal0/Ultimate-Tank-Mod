@@ -1,36 +1,24 @@
 {
-type:tank
-name:M7K Long Range Tank
+type:mech
+name:M7K Long Range mech
 description: M7K Is a mod of M135, Made to attack buildings from really away, but it can also be used as a defensive "turret"
 
 hitSize:24
-omniMovement: false
+omniMovement: true
 speed:0.7
 rotateSpeed:8.5
 
 health:750
 armor:2
-
- treadPullOffset: 3
-
-  treadRects: [
-    {
-      x: -35
-      y: 7
-      width: 2
-      height: 2
-    }
-  ]
-
-  envEnabled: 14
-  envDisabled: 2
+envEnabled: 14
+envDisabled: 2
 
  weapons: [
 
     {
       name:A12-Boulder-Launcher
       x: 0
-      y: 0
+      y: 2
       rotateSpeed: 4
       mirror: false
       rotate: true
@@ -38,14 +26,14 @@ armor:2
       reload: 240
       recoil: 1
       recoilTime: 30
-      shootSound: mediumCannon
+      shootSound: grenadlauncher
       bullet: {
         type: MissileBulletType
-        damage:200
+        damage:500
         speed: 8
-        lifetime: 50
-        width:10
-        height:20
+        lifetime: 65
+        width:20
+        height:40
         hitSize:7
         hitEffect:explosion
         hitSound:explosionbig
@@ -54,10 +42,10 @@ armor:2
         fragBullet:{
         type: LaserBulletType
         damage:10
-        speed: 25
-        lifetime:4
+        speed: 12.5
+        lifetime:8
         width:5
-        length:50
+        length:75
         colors:[eb9b34,e3a95d,eb9b34]
         hitSound:LaserShootLol
         fragRandomSpread:0
