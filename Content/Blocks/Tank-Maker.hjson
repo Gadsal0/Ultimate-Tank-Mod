@@ -4,7 +4,7 @@ name: Tank Maker
 description: Produces Units!
 itemCapacity: 300
 health: 1500
-size: 3
+size: 2
 
 consumes: {
   power: 2.2
