@@ -35,10 +35,6 @@ armor:3.5
       mirror: false
       rotate: true
       layerOffset: 3
-      ignoreRotation: false
-      followRotation: true
-      rotateShooting: false
-      shootEffect: shootSmall
       reload: 13
       recoil: 1
       recoilTime: 30
@@ -56,4 +52,10 @@ armor:3.5
     }
 
   ]
+
+research: {
+  parent: Tank-Maker
+  requirements: []
+}
+
 }

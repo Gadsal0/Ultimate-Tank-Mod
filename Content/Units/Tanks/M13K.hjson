@@ -1,0 +1,109 @@
+{
+type:tank
+name:M13K Heavy Tank
+description: M13K Heavy tank is an upgrade from M135, can be used as defense, and also assault of course
+
+hitSize:24
+omniMovement: false
+speed:1
+rotateSpeed:5
+
+health:1000
+armor:4
+
+ treadPullOffset: 3
+
+  treadRects: [
+    {
+      x: -35
+      y: 7
+      width: 2
+      height: 2
+    }
+  ]
+
+  envEnabled: 14
+  envDisabled: 2
+
+ weapons: [
+
+    {
+      name:M2-Turret
+      x: 0
+      y: 0
+      rotateSpeed: 4
+      mirror: false
+      rotate: true
+      layerOffset: 4
+      reload: 65
+      recoil: 1
+      recoilTime: 30
+      shootSound: mediumCannon
+
+      bullet: {
+        type: ArtilleryBulletType
+        splashDamage:100
+        splashDamageRadius:50
+        speed: 4
+        lifetime: 100
+        width:20
+        height:20
+      }
+
+    }
+
+    {
+      name: Basic-M1-Turret
+      x: 5
+      y: 10
+      rotateSpeed: 7
+      mirror: true
+      rotate: true
+      layerOffset: 3
+      reload: 13
+      recoil: 1
+      recoilTime: 30
+      shootSound: pew
+      bullet: {
+        type: BasicBulletType
+        damage: 30
+        speed: 7
+        lifetime: 23
+        width:10
+        height:10
+      }
+
+    }
+
+      {
+      name: Basic-M1-Turret
+      x: 5
+      y: -10
+      rotateSpeed: 7
+      mirror: true
+      rotate: true
+      layerOffset: 3
+      reload: 6.5
+      recoil: 1
+      recoilTime: 30
+      shootSound: pew
+
+      bullet: {
+        type: BasicBulletType
+        damage: 30
+        speed: 7
+        lifetime: 23
+        width:10
+        height:10
+      }
+
+    }
+
+  ]
+
+research: {
+  parent: M135
+  requirements: []
+}
+
+}
