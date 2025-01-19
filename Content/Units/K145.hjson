@@ -26,13 +26,12 @@ envDisabled: 2
       reload: 120
       recoil: 2
       recoilTime: 30
-      targetGround:false
       shootSound: pew
       bullet: {
       type: FlakBulletType
       damage:100
-      lifetime:5
-      speed:100
+      lifetime:10
+      speed:50
       hitSize:5
       explodeRange:450
       fragBullets:10
@@ -40,8 +39,16 @@ envDisabled: 2
       fragBullet:{
       type: FlakBulletType
       damage:10
-      lifetime:1
-      speed:100
+      lifetime:2
+      speed:50
+      fragBullets:1
+      fragRandomSpread:0
+      fragBullet:{
+      type:ShrapnelBulletType
+      damage:5
+      length:50
+      width:10
+      }
       }
       }
 
