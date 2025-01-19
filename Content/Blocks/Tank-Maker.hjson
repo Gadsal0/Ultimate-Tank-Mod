@@ -41,6 +41,16 @@ plans: [
     coal/10
     ]
   }
+   {
+    unit: K145
+    time: 3500
+    requirements: [
+    silicon/350
+    lead/200
+    titanium/200
+    pyratite/5
+    ]
+  }
 ]
 
 requirements: [

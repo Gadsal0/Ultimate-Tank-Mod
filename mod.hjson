@@ -2,8 +2,8 @@
     "name": "utm",
     "displayName": "Ultimate Tank Mod",
     "author": "Gadsal0",
-    "description": "A mod made for my friends",
-    "version": "1.1",
+    "description": "A mod made for my friends, you must extract the mod into a folder to be able to play! (idk why)",
+    "version": "1.2",
     "minGameVersion": "142",
     "dependencies": [],
 	"repo":"Gadsal0/Ultimate-Tank-Mod"

@@ -1,0 +1,61 @@
+{
+type:mech
+name:K145
+description: M7K Variant made to target air units.
+
+hitSize:10
+omniMovement: true
+speed:5
+rotateSpeed:10
+
+health:500
+armor:0
+envEnabled: 14
+envDisabled: 2
+
+ weapons: [
+
+    {
+      name:M1-Flakker
+      x: 0
+      y: 2
+      rotateSpeed: 4
+      mirror: false
+      rotate: true
+      layerOffset: 4
+      reload: 120
+      recoil: 2
+      recoilTime: 30
+      targetGround:false
+      shootSound: pew
+      bullet: {
+      type: FlakBulletType
+      damage:100
+      lifetime:5
+      speed:100
+      hitSize:5
+      explodeRange:450
+      fragBullets:10
+      fragRandomSpread:45
+      fragBullet:{
+      type: FlakBulletType
+      damage:10
+      lifetime:1
+      speed:100
+      }
+      }
+
+    }
+
+  ]
+
+research: {
+  parent: K145
+  requirements: [
+    silicon/3500
+    lead/2000
+    titanium/2000
+  ]
+}
+
+}
