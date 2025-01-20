@@ -51,6 +51,16 @@ plans: [
     pyratite/5
     ]
   }
+   {
+    unit: Kraken-K1
+    time: 7500
+    requirements: [
+    silicon/450
+    lead/450
+    titanium/450
+    surge-alloy/100
+    ]
+  }
 ]
 
 requirements: [
