@@ -57,7 +57,7 @@ envDisabled: 2
   ]
 
 research: {
-  parent: K145
+  parent: M7K
   requirements: [
     silicon/3500
     lead/2000

@@ -1,0 +1,48 @@
+{
+type:mech
+name: Kraken-K1
+description: A mix of K145 and M7K, Have fun!
+
+hitSize:10
+omniMovement: true
+speed:5
+rotateSpeed:10
+
+health:500
+armor:0
+envEnabled: 14
+envDisabled: 2
+
+ weapons: [
+
+    {
+      name:M3-Turret
+      x: 4
+      y: 0
+      rotateSpeed: 4
+      rotationLimit:10
+      mirror: false
+      rotate: true
+      layerOffset: 4
+      reload: 120
+      recoil: 2
+      recoilTime: 30
+      shootSound: pew
+      bullet: {
+
+      }
+
+    }
+
+  ]
+
+research: {
+  parent: M7K
+  requirements: [
+    silicon/4500
+    lead/4500
+    titanium/4500
+  ]
+}
+
+}
