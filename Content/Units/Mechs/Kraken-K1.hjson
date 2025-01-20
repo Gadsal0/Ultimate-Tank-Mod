@@ -9,7 +9,7 @@ speed:2
 rotateSpeed:10
 
 health:100
-armor:5
+armor:25
 envEnabled: 14
 envDisabled: 2
 
