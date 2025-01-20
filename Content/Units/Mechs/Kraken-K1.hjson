@@ -1,15 +1,15 @@
 {
 type:mech
 name: Kraken-K1
-description: A mix of K145 and M7K, Have fun!
+description: A mix of K145 and M7K, Have fun!, it's really strong, but really weak
 
 hitSize:10
 omniMovement: true
-speed:5
+speed:2
 rotateSpeed:10
 
-health:500
-armor:0
+health:100
+armor:5
 envEnabled: 14
 envDisabled: 2
 
@@ -17,18 +17,46 @@ envDisabled: 2
 
     {
       name:M3-Turret
-      x: 4
+      x: 7
       y: 0
       rotateSpeed: 4
-      rotationLimit:10
-      mirror: false
+      rotationLimit:45
       rotate: true
       layerOffset: 4
-      reload: 120
+      reload: 60
       recoil: 2
       recoilTime: 30
-      shootSound: pew
+      shootSound: malignShoot
       bullet: {
+      
+      type:ShrapnelBulletType
+      damage:50
+      length:150
+      width:5
+      fragRandomSpread:45
+      fragBullets:10
+      serrations:0
+
+      fragBullet:{
+      type: BasicBulletType
+      damage: 30
+      speed: 10
+      lifetime: 20
+      width:10
+      height:20
+      fragRandomSpread:45
+      fragBullets:5
+      hitSound: spark
+
+      fragBullet:{
+      type:ShrapnelBulletType
+      damage:50
+      length:50
+      width:5
+      serrations:0
+      }
+
+      }
 
       }
 
