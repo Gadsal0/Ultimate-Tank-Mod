@@ -5,11 +5,11 @@ description: Kraken-K2 Is the future
 
 hitSize:10
 omniMovement: true
-speed:0.5
+speed:0.3
 rotateSpeed:3
 
-health: 24800
-armor:25
+health: 12400
+armor:75
 envEnabled: 14
 envDisabled: 2
 
@@ -26,15 +26,15 @@ envDisabled: 2
       shootCone:45
       rotate: true
       layerOffset: 4
-      reload: 240
+      reload: 480
       recoil: 2
       recoilTime: 30
       shootSound: malignShoot
       bullet: {
 
       type:ShrapnelBulletType
-      damage:100
-      length:200
+      damage:500
+      length:255
       width:5
       serrations:7
       fragRandomSpread:0
@@ -68,9 +68,10 @@ envDisabled: 2
       hitSize:40
       intervalBullets:8
       intervalSpread:45
+      intervalRandomSpread:0
       intervalBullet:{
       type:ShrapnelBulletType
-      damage:100
+      damage:10
       length:50
       width:5
       serrations:7
@@ -105,14 +106,15 @@ envDisabled: 2
       type: ArtilleryBulletType
       splashDamage:100
       splashDamageRadius:20
-      lifetime:10
+      lifetime:500
       drawSize:80
       hitSize:40
       intervalBullets:8
-      intervalSpread:45
+      intervalSpread:11.25
+      intervalRandomSpread:5
       intervalBullet:{
       type:ShrapnelBulletType
-      damage:100
+      damage:10
       length:50
       width:5
       serrations:7
