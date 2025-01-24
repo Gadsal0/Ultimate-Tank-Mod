@@ -61,6 +61,18 @@ plans: [
     surge-alloy/100
     ]
   }
+    {
+    unit: Kraken-K2
+    time: 7500
+    requirements: [
+    silicon/450
+    lead/450
+    titanium/450
+    surge-alloy/500
+    plastanium/500
+    blast-compound/500
+    ]
+  }
 ]
 
 requirements: [
