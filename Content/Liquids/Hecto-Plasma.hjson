@@ -1,0 +1,12 @@
+type:Liquid
+hidden:true
+name:Hecto Plasma
+description: a infernal hot liquid plasma, capable of melting the strongest
+capPuddles:false
+color:00ffff
+viscosity:0
+coolant:0
+boilPoint:15
+temperature:10
+moveThroughBlocks:true
+effect:Hecto-Burn

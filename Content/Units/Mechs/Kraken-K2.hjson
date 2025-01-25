@@ -13,6 +13,35 @@ armor:75
 envEnabled: 14
 envDisabled: 2
 
+immunities:[Hecto-Burn]
+
+abilities:[
+
+{
+  type:ShieldArcAbility
+  whenShooting:false
+  angle:80
+  max:2000
+  cooldown:200
+  x:0
+  y:-35
+  width:2
+}
+
+{
+  type:LiquidExplodeAbility
+  liquid:Hecto-Plasma
+  amount:200
+}
+
+{
+  type:LiquidRegenAbility
+  liquid:Hecto-Plasma
+  slurpSpeed:20
+}
+
+]
+
  weapons: [
 
     {
@@ -33,7 +62,7 @@ envDisabled: 2
       bullet: {
 
       type:ShrapnelBulletType
-      damage:500
+      damage:1500
       length:255
       width:5
       serrations:7
@@ -47,8 +76,8 @@ envDisabled: 2
       fragOnHit:false
       fragBullet:{
       type: ArtilleryBulletType
-      splashDamage:100
-      splashDamageRadius:20
+      splashDamage:500
+      splashDamageRadius:50
       drawSize:80
       hitSize:40
       fragRandomSpread:0
@@ -57,24 +86,28 @@ envDisabled: 2
       fragVelocityMin:1
       fragVelocityMax:3
       fragLifeMin:0.5
-      fragLifeMax:1.5
+      fragLifeMax:2.5
       fragOnHit:false
       fragBullet:{
 
       type: ArtilleryBulletType
-      splashDamage:100
-      splashDamageRadius:20
+      splashDamage:500
+      splashDamageRadius:50
       drawSize:80
       hitSize:40
       intervalBullets:8
       intervalSpread:45
       intervalRandomSpread:0
+      puddles:5
+      puddleRange:50
+      puddleAmount:10
+      puddleLiquid:Hecto-Plasma
       intervalBullet:{
       type:ShrapnelBulletType
-      damage:10
+      damage:25
       length:50
-      width:5
-      serrations:7
+      width:10
+      serrations:15
       hitSound:shockBlast
       }
 
@@ -106,12 +139,18 @@ envDisabled: 2
       type: ArtilleryBulletType
       splashDamage:100
       splashDamageRadius:20
-      lifetime:500
+      lifetime:40
+      speed:5
       drawSize:80
       hitSize:40
       intervalBullets:8
       intervalSpread:11.25
       intervalRandomSpread:5
+      intervalDelay:10
+      puddles:10
+      puddleRange:10
+      puddleAmount:100
+      puddleLiquid:Hecto-Plasma
       intervalBullet:{
       type:ShrapnelBulletType
       damage:10
