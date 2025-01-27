@@ -1,0 +1,25 @@
+{
+type:missile
+name:ICBM
+description:Kaboom
+lowAltitude:true
+hitSize:10
+omniMovement: false
+speed:5
+rotateSpeed:1
+flying:true
+health: 1000
+armor:75
+envEnabled: 14
+envDisabled: 2
+missileAccelTime:60
+lifetime:500
+playerControllable:false
+physics:false
+useUnitCap:false
+deathEffect:none
+hidden:true
+weapons:[
+
+]
+}

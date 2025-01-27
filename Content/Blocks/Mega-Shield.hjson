@@ -1,0 +1,38 @@
+type: ForceProjector
+
+name: Mega-Shield
+description: Deploys a giant shield, to protect agaisn't the most powerful units
+health: 1500
+size: 4
+radius:1000
+sides:4
+shieldHealth:1000
+shieldRotation:45
+
+cooldownNormal:50
+cooldownLiquid:1
+coolantConsumption:5
+liquidCapacity:10
+regen:1
+
+consumes: {
+  power: 10
+}
+
+requirements: [
+    silicon/750
+    copper/750
+    lead/750
+    surge-alloy/500
+]
+
+category: effect
+research: {
+  parent: Tank-Maker
+  requirements: [
+    silicon/2500
+    copper/2500
+    lead/2500
+    surge-alloy/5000
+  ]
+}
